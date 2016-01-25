@@ -1,7 +1,7 @@
-import request from "supertest";
-import app from "../app.js";
+import request from "supertest"
+import app from "../app.js"
 
-const HELLO_ROUTE = "/api/hello";
+const HELLO_ROUTE = "/api/hello"
 
 describe("Test Hello Api", () => {
 
@@ -9,7 +9,7 @@ describe("Test Hello Api", () => {
         request(app)
         .get(HELLO_ROUTE)
         .expect({ message: "hello world" })
-        .end(done);
-    });
+        .end(done)
+    })
 
-});
+})

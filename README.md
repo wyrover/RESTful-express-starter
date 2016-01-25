@@ -10,6 +10,15 @@ Install all dependencies:
 ```
 npm install
 ```
+
+或者
+
+```
+cnpm install babel-preset-es2015 babel-register body-parser express morgan nconf --save
+cnpm install babel-cli eslint-plugin-react mocha nodemon supertest --save-dev
+```
+
+
 Start development environment:
 ```
 npm run dev
@@ -31,3 +40,6 @@ DOCKER_HUB_URL = hub_username/hub_repo ( For example: awaseem/blog-api )
 ```
 
 ##### Created for CPSC 471
+
+
+
